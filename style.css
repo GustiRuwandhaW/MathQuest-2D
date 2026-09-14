@@ -99,3 +99,24 @@ footer{display:flex;justify-content:space-between;color:#6f819b;font-size:12px;p
   .topic-grid,.choices,.result-stats{grid-template-columns:1fr 1fr}
   .question-card h2{font-size:23px}
 }
+
+.hero-actions{display:flex;gap:10px;flex-wrap:wrap}
+.secondary{background:#1a2b46;color:var(--text);border:1px solid var(--line)}
+.secondary:hover{background:#223858}
+.section-head{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;margin-bottom:18px}
+.section-head h2{font-size:34px;margin:5px 0}
+.section-head p{color:var(--muted)}
+.study-controls{display:flex;gap:14px;margin-bottom:18px;max-width:700px}
+.lesson-card{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:28px;margin-bottom:18px}
+.lesson-card h3{font-size:30px;margin:6px 0 10px}.lesson-card h4{margin:22px 0 10px}
+.lesson-tag{color:var(--primary);font-weight:900;font-size:12px;letter-spacing:1px;text-transform:uppercase}
+.summary{color:var(--muted);line-height:1.7;font-size:16px}
+.formula-list{display:grid;gap:10px}.formula{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;background:#081528;border:1px solid #29405f;padding:13px 15px;border-radius:12px;color:#dbeafe;font-size:15px}
+.example{padding:15px;background:#12263e;border-left:4px solid var(--primary);border-radius:10px;font-weight:800}
+.lesson-card li{margin:8px 0;color:var(--muted)}
+.game-tools{display:flex;align-items:center;gap:10px;margin:16px 0 10px}.hint-btn{background:#3a2c0c;color:#fde68a;border:1px solid #6b5315}.hint-btn:disabled{opacity:.45;cursor:not-allowed;transform:none}
+.tool-note{font-size:13px;color:var(--muted)}
+.hint-box{padding:15px;border:1px solid #6b5315;background:#211b0b;border-radius:14px;color:#fef3c7;line-height:1.5}.hint-box p{margin:8px 0 0}
+.solution-box{margin:15px 0;padding:18px;border:1px solid #31526d;background:#0d1d30;border-radius:15px;line-height:1.6}.solution-title{font-size:19px;font-weight:900;margin-bottom:10px}.solution-box ol{margin:10px 0 10px 22px}.solution-box li{margin:6px 0}.tip{padding:10px 12px;background:#132a28;border-radius:10px}.answer-reveal{margin-top:12px;color:var(--primary);font-weight:900}
+.hidden{display:none!important}
+@media(max-width:800px){.hero-card{grid-template-columns:1fr}.hero-art{min-height:260px}.hero-copy{padding:28px}.game-layout{grid-template-columns:1fr}.topbar{flex-direction:column}.scorebox{width:100%}.scorebox div{flex:1}.section-head{flex-direction:column}.study-controls{flex-direction:column}.hero-actions button{flex:1}}
